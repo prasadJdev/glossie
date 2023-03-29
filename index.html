@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project 1</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/Logo.jpg" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+  <!-- Bootstrap Css CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- Slick Css CDN -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <!-- Custom Styles -->
+  <link rel="stylesheet" type="text/css" href="Globalstyle.css">
+  <link rel="stylesheet" type="text/css" href="media.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header id="header">
+    <nav class="navbar text-white p-0 navbar-expand-md header navbar-light ">
+      <a class="navbar-brand" href="#"><img src="assets/Logo.jpg" alt="Logo" class="img-fluid logo mx-3"></a>
+      <div class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hamburger ">
+          <span class="burger">
+          </span>
+        </span>
+      </div>
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <div class="container-fluid p-2 custom_nav">
+          <ul class="navbar-nav  ml-0">
+            <li class="nav-item"><a href="#" class="nav-link "> HOME </a></li>
+            <li class="nav-item"><a href="#" class="nav-link ">SERVICES </a></li>
+            <li class="nav-item"><a href="#" class="nav-link"> SALOONS </a></li>
+            <li class="nav-item"><a href="#" class="nav-link"> OFFERS </a></li>
+            <li class="nav-item"><a href="#" class="nav-link"> PACKAGES </a></li>
+            <li class="nav-item"><a href="#" class="nav-link"> BLOG </a></li>
+            <li class="nav-item"><a href="#" class="nav-link"> CONTACT </a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-shopping-cart" style="color:#E36094;"></i>&nbsp;<span class="badge badge-light" style="background-color:white;">&nbsp;0</span></a></li>
+          </ul>
+          <!--div class="">
+                      <a href="#" class="btn btn-default book-btn">Book Now</a>
+                  </div-->
+        </div>
+      </div>
+    </nav><!-- END NAVBAR -->
+  </header>
+  <!-- Main -->
+  <main id="main">
+    <!-- Section — Owl— Carousel -->
+    <div class="container-fluid p-0">
+      <div class="site-slider">
+        <div class="slider-one">
+          <div>
+            <img src="assets/banner/Banner 2.jpg" class="img-fluid img_crousel" alt="img-1" />
+          </div>
+          <div>
+            <img src="assets/banner/Banner 1.jpg" class="img-fluid img_crousel" alt="img-1" />
+          </div>
+          <div>
+            <img src="assets/banner/Banner 3.jpg" class="img-fluid img_crousel" alt="img-1" />
+          </div>
+          <div>
+            <img src="assets/banner/Banner 4.jpg" class="img-fluid img_crousel" alt="img-1" />
+          </div>
+          <div>
+            <img src="assets/banner/Banner 6.jpg" class="img-fluid img_crousel" alt="img-1" />
+          </div>
+          <div>
+            <img src="assets/banner/Banner 5.jpg" class="img-fluid img_crousel" alt="img-1" />
+          </div>
+          <div>
+            <img src="assets/banner/Banner 7.jpg" class="img-fluid img_crousel" alt="img-1" />
+          </div>
+        </div>
+        <div class="slider-btn">
+          <span class="prev position-top"><i class="fas fa-chevron-left"></i></span>
+          <span class="prev position-top right-0"><i class="fas fa-chevron-right"></i></span>
+        </div>
+      </div>
+    </div>
+    <section id="tabs" class="project-tab">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav>
+              <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist" style="background: #e36094; border-bottom: 1px solid #dee2e6; width: 50%;margin: 0 auto;">
+                <a class="nav-item nav-link active search_heading" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">QUICK SEARCH</a>
+                <!--
+  						<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">ADVANCED SEARCH</a> -->
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <form action="" method="GET">
+                  <div class="row" style="padding: 20px 50px 30px 50px; background: #e36094;">
+                    <div class="col-sm-12">
+                      <h4 style="color:white; font-weight:normal; text-align:center;"> TOP SALOON'S FOR WOMEN </h4><br>
+                    </div>
+                    <div class="col-sm-4 ">
+                      <input type="text" name="main_id" id="myInput" class="form-control searchBx slider-input" placeholder="Services" style="color:white; background: transparent;" autocomplete="off">
+                      <a href="" class="slider-input-icon search_icons"><i class="fa fa-search"></i></a>
+                      <div id="suggesstion-box" style="display:none;"></div>
+                    </div>
+                    <div class="col-sm-4 ">
+                      <input type="text" name="location_name" class="form-control searchBx slider-input" placeholder="Location" style="color:white; background: transparent;" id="location" autocomplete="off">
+                      <a href="" class="slider-input-icon search_icons"><i class="fa fa-map-marker"></i></a>
+                      <input id="latitude" name="latitude" type="hidden">
+                      <input id="longitude" name="longitude" type="hidden">
+                    </div>
+                    <div class="col-sm-4">
+                      <button class="btn btn-light col-sm-12" type="submit" name="search" value="Search">Show Saloons</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container my-5">
+      <div class="col-12 text-center">
+        <img src="assets/Logo.jpg" class="img-fluid img_sepration">
+        <div class="separator">
+          <span>
+            <hr class="hh"></span>
+          <span>
+            <hr class="hh"></span>
+        </div>
+      </div>
+    </section>
+    <section class="p-0 my-5">
+      <h4 class="headin">PARLOUR SERVICES</h4>
+      <div class="container-fluid p-0 m-0">
+        <div class="site-slider-two">
+          <div class="slider-two ">
+            <div class=" category_img ">
+              <img src="assets/Parlour_services/Hair-5.jpg" class="img-fluid img_crousel2" alt="img-1" />
+              <h3 class="img_crousel2_heading">Hair</h3>
+            </div>
+            <div class=" category_img ">
+              <img src="assets/Parlour_services/Hair-2.jpg" class="img-fluid img_crousel2" alt="img-1" />
+              <h3 class="img_crousel2_heading">Spa</h3>
+            </div>
+            <div class=" category_img ">
+              <img src="assets/Parlour_services/Hair-1.jpg" class="img-fluid img_crousel2" alt="img-1" />
+              <h3 class="img_crousel2_heading">Message</h3>
+            </div>
+            <div class=" category_img ">
+              <img src="assets/Parlour_services/Hair-5.jpg" class="img-fluid img_crousel2" alt="img-1" />
+              <h3 class="img_crousel2_heading">Hair</h3>
+            </div>
+            <div class=" category_img ">
+              <img src="assets/Parlour_services/Hair-4.jpg" class="img-fluid img_crousel2" alt="img-1" />
+              <h3 class="img_crousel2_heading">Hair</h3>
+            </div>
+            <div class=" category_img ">
+              <img src="assets/Parlour_services/Hair-3.jpg" class="img-fluid img_crousel2" alt="img-1" />
+              <h3 class="img_crousel2_heading">Hair</h3>
+            </div>
+            <div class=" category_img ">
+              <img src="assets/Parlour_services/Hair-2.jpg" class="img-fluid img_crousel2" alt="img-1" />
+              <h3 class="img_crousel2_heading">Hair</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="p-0 " id="featured-saloons">
+      <h4 class="headin">FEATURED SALOONS</h4>
+      <div class="separator text-center">
+        <span>
+          <hr class="hh"></span>
+        <span>
+          <hr class="hh"></span>
+      </div>
+      <div class="featured">
+        <div class="featuredBx">
+          <div>
+            <img src="assets/banner/Banner 1.jpg" class="img-fluid featured_img">
+            <img src="assets/Logo.jpg" class="featured_img_curved ">
+          </div>
+          <div class="featured_content">
+            <h5>Shop — 1</h5>
+          </div>
+        </div>
+        <div class="featuredBx">
+          <div>
+            <img src="assets/banner/Banner 5.jpg" class="img-fluid featured_img">
+            <img src="assets/Logo.jpg" class="featured_img_curved ">
+          </div>
+          <div class="featured_content">
+            <h5>Shop — 2</h5>
+          </div>
+        </div>
+        <div class="featuredBx">
+          <div>
+            <img src="assets/banner/Banner 2.jpg" class="img-fluid featured_img">
+            <img src="assets/Logo.jpg" class="featured_img_curved ">
+          </div>
+          <div class="featured_content">
+            <h5>Shop — 3</h5>
+          </div>
+        </div>
+        <div class="featuredBx">
+          <div>
+            <img src="assets/banner/Banner 2.jpg" class="img-fluid featured_img">
+            <img src="assets/Logo.jpg" class="featured_img_curved ">
+          </div>
+          <div class="featured_content">
+            <h5>Shop — 4</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="how_we_work">
+      <h2 class="text-center text-light ">HOW WE WORK</h2>
+      <div class="separator text-center">
+        <span>
+          <hr class="hh">
+        </span>
+        <span>
+          <hr class="hh">
+        </span>
+      </div>
+      <div class=" p-0 m-0">
+        <div class="hww_container container">
+          <div class="hwwBx">
+            <img src="assets/Hagoo.png" class="img-fluid img_hww">
+            <h3>Style</h3>
+            <p class="text-justify p-2">Nulla id justo non velit rutrum auctor. Mauris sit amet lorem pretium nibh ornare blandit Nulla id justo non velit rutrum auctor. Mauris sit amet lorem pretium nibh ornare blandit </p>
+          </div>
+          <div class="hwwBx">
+            <img src="assets/coolness.png" class="img-fluid img_hww">
+            <h3>Style</h3>
+            <p class="text-justify p-2"> Nulla id justo non velit rutrum auctor. Mauris sit amet lorem pretium nibh ornare blandit Nulla id justo non velit rutrum auctor. Mauris sit amet lorem pretium nibh ornare blandit</p>
+          </div>
+          <div class="hwwBx">
+            <img src="assets/Hagoo.png" class="img-fluid img_hww">
+            <h3>Style</h3>
+            <p class="text-justify p-2"> Nulla id justo non velit rutrum auctor. Mauris sit amet lorem pretium nibh ornare blandit Nulla id justo non velit rutrum auctor. Mauris sit amet lorem pretium nibh ornare blandit</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="popular_offers">
+      <h4 class="headin">POPULAR OFFERS</h4>
+      <div class="separator text-center">
+        <span>
+          <hr class="hh">
+        </span>
+        <span>
+          <hr class="hh">
+        </span>
+      </div>
+      <div class="featured">
+        <div class="popularBx">
+          <div>
+            <img src="assets/banner/Banner 4.jpg" class="img-fluid featured_img">
+            <span class="popular_img_curved ">
+              <p class="popular_text p-10 m-0">Hair Cut and Head Massage</p>
+            </span>
+          </div>
+          <div class="offers_content text-center">
+            <h6 class="headin">Hair Cut + Head Massage</h6>
+            <p><span><i class="fas fa-map-marker"></i></span>Shop — 1</p>
+            <p><span>OFFER PRICE : </span>₹<strike>120</strike>100</p>
+            <p>VALID TILL :<span>29 July, 2020</span></p>
+          </div>
+        </div>
+        <div class="popularBx">
+          <div>
+            <img src="assets/banner/Banner 8.jpg" class="img-fluid featured_img">
+            <div class="popular_img_curved ">
+              <p class="popular_text text-white">Hair Cut</p>
+            </div>
+          </div>
+          <div class="offers_content">
+            <h6 class="headin">Hair Cut + Head Massage</h6>
+            <p><span><i class="fas fa-map-marker"></i></span>Shop — 10</p>
+            <p><span>OFFER PRICE : </span>₹<strike>400</strike>350</p>
+            <p>VALID TILL :<span>31 July, 2020</span></p>
+          </div>
+        </div>
+        <div class="popularBx">
+          <div>
+            <img src="assets/banner/Banner 6.jpg" class="img-fluid featured_img">
+            <div class="popular_img_curved ">
+              <p class="popular_text text-white">Facials</p>
+            </div>
+          </div>
+          <div class="offers_content">
+            <h6 class="headin">Facial Kit</h6>
+            <p><span><i class="fas fa-map-marker"></i></span>Shop — 7</p>
+            <p><span>OFFER PRICE : </span>₹<strike>2900</strike>1000</p>
+            <p>VALID TILL :<span>25 September, 2020</span></p>
+          </div>
+        </div>
+    </section>
+    <section id="clients m-10 p-5">
+      <div class="clients">
+        <div class="clien">
+          <h5 class="text-center text-white">WHAT OUR CLIENTS SAY</h5>
+          <img src="assets/Hagoo.png" class="img-fluid clientsBg_img">
+          <div class="site-slider-three">
+            <div class="slider-three">
+              <div class="client">
+                <div class="clt px-2">
+                  <img src="assets/Female-profile.png" class="img-fluid client_img">
+                  <div class="client_content">
+                    <p>Nullam egestas venenatis tristique. Duis vel molestie arcu. Sed vitae ligula sit amet neque scelerisque condimentum a eget lacus. Suspendisse vel sagittis mi. Suspendisse ornare a eros a finibus. Nulla condimentum pellentesque enim ut tristique</p>
+                    <br>
+                    <br>
+                    <h3>Alice</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="client">
+                <div class="clt px-2">
+                  <img src="assets/Male-profile.png" class="img-fluid client_img">
+                  <div class="client_content">
+                    <p>Nullam egestas venenatis tristique. Duis vel molestie arcu. Sed vitae ligula sit amet neque scelerisque condimentum a eget lacus. Suspendisse vel sagittis mi. Suspendisse ornare a eros a finibus. Nulla condimentum pellentesque enim ut tristique</p>
+                    <br>
+                    <br>
+                    <h3>Jhon Bob</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer id="footer" class="bg-light text-dark py-5">
+ <section class="subscrib">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="assets/Footer.jpg" class="img-fluid">
+          </div>
+          <div class="col-sm-1">&nbsp;</div>
+          <div class="col-sm-3" align="center">
+            <br><br>
+            <h6>SUBSCRIBE TO OUR NEWSLETTER</h6>
+            <form action="" method="POST" id="form-search">
+              <input type="text" class="form-control" name="email" id="email123" placeholder="ENTER EMAIL ADDRESS">
+              <button class="btn btn-dark my-3" type="button" id="save">SUBSCRIBE</button>
+            </form>
+          </div>
+          <div class="col-sm-1">&nbsp;</div>
+          <div class="col-sm-3 col-sm-offset-1">
+            <br>
+            <span><i class="fa fa-map-marker"></i> Hyderabad, INDIA</span><br><br>
+            <span><i class="fa fa-phone"></i> 00-000-000-00</span><br><br>
+            <span><i class="fa fa-envelope"></i> &nbsp; company@support.com</span><br><br>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <!-- Fontawesome CDN -->
+  <script src="https://kit.fontawesome.com/ec2ebb3023.js" crossorigin="anonymous"></script>
+  <!-- Slick JavaScript CDN -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- Project JavaScript -->
+  <script src="main.js"></script>
+</body>
+
+</html>

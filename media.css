@@ -1,0 +1,38 @@
+@media screen and (max-width: 786px) {
+  .custom_nav{
+    background: lightgrey !important;
+    opacity: 0.9
+  }
+  .nav_item a{
+    color: #42445A
+  }
+  .img_crousel{
+    width: 100vw;
+    height: 40vh
+  }
+  .site-slider .slider-btn{
+    display: none
+  }
+  .header{
+    background: #000
+  }
+  .search_inputs{
+    flex-direction: column
+  }
+  .featured{
+    flex-direction: column;
+  }
+  .hww_container{
+    flex-direction: column
+  }
+  .clien{
+    padding-top: 20% !important;
+    height: 120vh !important
+  }
+  .client_content{
+    padding: 5px
+  }
+  .clientsBg_img{
+    height: 120vh!important
+  }
+}
